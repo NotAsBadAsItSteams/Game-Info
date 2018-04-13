@@ -1,5 +1,5 @@
 {
-  "name": "Game-Info",
+  "name": "game-info",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,19 +10,19 @@
     "build:prod": "webpack -p --watch",
     "seed": "node seed.js",
     "test:front": "jest test/client",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NotAsBadAsItSteams/Game-Info.git"
+    "url": "git+https://github.com/NotAsBadAsItSteams/game-info.git"
   },
   "keywords": [],
   "author": "Airyque Ervin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NotAsBadAsItSteams/Game-Info/issues"
+    "url": "https://github.com/NotAsBadAsItSteams/game-info/issues"
   },
-  "homepage": "https://github.com/NotAsBadAsItSteams/Game-Info#readme",
+  "homepage": "https://github.com/NotAsBadAsItSteams/game-info#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
